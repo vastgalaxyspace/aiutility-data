@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Utility App - Data API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .status {
+            background: #10b981;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        
+        .endpoints {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .endpoints h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .endpoint {
+            background: white;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #667eea;
+            border-left: 4px solid #667eea;
+            word-break: break-all;
+        }
+        
+        .endpoint:last-child {
+            margin-bottom: 0;
+        }
+        
+        .info {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff3cd;
+            border-radius: 10px;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .info p {
+            color: #856404;
+            line-height: 1.6;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI Utility App</h1>
+        <p class="subtitle">JSON Data API Endpoints</p>
+        
+        <div class="status">✅ API Active</div>
+        
+        <div class="endpoints">
+            <h2>Available Endpoints:</h2>
+            <div class="endpoint" id="version-url">Loading...</div>
+            <div class="endpoint" id="categories-url">Loading...</div>
+            <div class="endpoint" id="tools-url">Loading...</div>
+            <div class="endpoint" id="prompts-url">Loading...</div>
+            <div class="endpoint" id="learning-url">Loading...</div>
+            <div class="endpoint" id="updates-url">Loading...</div>
+        </div>
+        
+        <div class="info">
+            <p><strong>📱 For Android App Developers:</strong><br>
+            These endpoints provide read-only access to curated AI tools, prompts, and learning content. 
+            Start with <code>version.json</code> to check for updates, then fetch the required data files.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Powered by GitHub Pages | Data updates automatically</p>
+        </div>
+    </div>
+    
+    <script>
+        // Get the base URL dynamically
+        const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
+        const dataUrl = baseUrl + (baseUrl.endsWith('/') ? '' : '/') + 'data/';
+        
+        // Update endpoint URLs
+        document.getElementById('version-url').textContent = dataUrl + 'version.json';
+        document.getElementById('categories-url').textContent = dataUrl + 'categories.json';
+        document.getElementById('tools-url').textContent = dataUrl + 'ai_tools.json';
+        document.getElementById('prompts-url').textContent = dataUrl + 'prompts.json';
+        document.getElementById('learning-url').textContent = dataUrl + 'learning.json';
+        document.getElementById('updates-url').textContent = dataUrl + 'updates.json';
+    </script>
+</body>
+</html>
+```
+
+**Save the file**
+
+**Your repository structure now:**
+```
+aiutility-data/
+  ├── data/
+  │   ├── categories.json
+  │   ├── ai_tools.json
+  │   ├── prompts.json
+  │   ├── learning.json
+  │   ├── updates.json
+  │   └── version.json
+  ├── index.html          ← NEW
+  └── README.md
+```
+
+---
+
+## Step 10.5: Create .gitignore File
+
+**What is .gitignore?**
+Tells Git which files to ignore (we don't want to upload unnecessary files).
+
+**Create file:** `aiutility-data/.gitignore`
+
+**Add this content:**
+```
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
