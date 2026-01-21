@@ -1,37 +1,92 @@
 {
   "prompts": [
     {
-      "id": 2,
-      "title": "Python Bug Fixer",
-      "category": "coding",
-      "prompt_text": "Analyze this Python error and suggest a fix:\n\nError: [Paste Error]\nCode: [Paste Code]",
-      "tags": "python, debug, dev",
-      "use_case": "Fixing code errors quickly",
-      "example_output": "Identifies IndexError and suggests checking list bounds.",
-      "is_featured": true,
-      "created_at": "2026-01-21T14:59:23.083170+00:00"
-    },
-    {
       "id": 1,
       "title": "Resume Bullet Points",
       "category": "resume",
-      "prompt_text": "Rewrite this job responsibility into a strong achievement-based bullet point using action verbs: [Paste Text]",
+      "prompt_text": "Rewrite the following job responsibility into a strong, achievement-oriented resume bullet point. Use action verbs, quantify impact where possible, and keep it concise.\n\nInput:\n[Paste job responsibility here]",
       "tags": "career, resume, writing",
-      "use_case": "Improving CV impact",
-      "example_output": "Transformed 'Sales manager' to 'Spearheaded sales strategy resulting in 20% growth...'",
+      "use_case": "Improving CV impact and clarity",
+      "example_output": "Spearheaded cross-functional sales initiatives, driving a 20% increase in quarterly revenue while expanding key enterprise accounts.",
       "is_featured": true,
       "created_at": "2026-01-21T14:59:23.076837+00:00"
+    },
+    {
+      "id": 2,
+      "title": "Python Bug Fixer",
+      "category": "coding",
+      "prompt_text": "You are a senior Python developer. Analyze the following error message and code snippet. Explain the root cause in simple terms and provide a corrected version of the code.\n\nError:\n[Paste error message]\n\nCode:\n[Paste Python code]",
+      "tags": "python, debug, dev",
+      "use_case": "Fixing Python errors quickly and correctly",
+      "example_output": "The IndexError occurs because the loop exceeds the list length. Updating the loop condition prevents out-of-range access.",
+      "is_featured": true,
+      "created_at": "2026-01-21T14:59:23.083170+00:00"
     },
     {
       "id": 3,
       "title": "Polite Email Decline",
       "category": "email",
-      "prompt_text": "Write a polite email declining this invitation while keeping the door open for future opportunities: [Context]",
+      "prompt_text": "Write a polite, professional email declining the following invitation. Maintain a respectful tone, express gratitude, and keep the door open for future opportunities.\n\nContext:\n[Paste invitation details]",
       "tags": "email, business, soft-skills",
-      "use_case": "Declining meetings professionally",
-      "example_output": "Thank you for the invite...",
+      "use_case": "Declining meetings or requests professionally",
+      "example_output": "Thank you for the invitation. Unfortunately, I won’t be able to attend at this time, but I’d be happy to stay in touch for future opportunities.",
       "is_featured": false,
       "created_at": "2026-01-21T14:59:23.086964+00:00"
+    },
+    {
+      "id": 4,
+      "title": "SQL Query Optimizer",
+      "category": "coding",
+      "prompt_text": "You are a database performance expert. Review the following SQL query and suggest optimizations to improve performance. Explain why each change helps.\n\nQuery:\n[Paste SQL query]\n\nDatabase:\n[MySQL/PostgreSQL/Other]",
+      "tags": "sql, database, performance",
+      "use_case": "Optimizing slow database queries",
+      "example_output": "Adding an index on the WHERE clause column reduces full table scans and significantly improves execution time.",
+      "is_featured": true,
+      "created_at": "2026-01-21T16:00:00.000000+00:00"
+    },
+    {
+      "id": 5,
+      "title": "Cold Outreach Message",
+      "category": "marketing",
+      "prompt_text": "Write a short, personalized cold outreach message for the following product. Keep it under 100 words, highlight the main value proposition, and end with a clear call to action.\n\nProduct details:\n[Paste product info]\n\nTarget audience:\n[Describe audience]",
+      "tags": "marketing, sales, copywriting",
+      "use_case": "Sending effective cold messages",
+      "example_output": "Hi [Name], I noticed your team is scaling rapidly. Our tool helps reduce onboarding time by 40%. Would you be open to a quick 10-minute chat?",
+      "is_featured": false,
+      "created_at": "2026-01-21T16:05:00.000000+00:00"
+    },
+    {
+      "id": 6,
+      "title": "Explain Code Like I'm Five",
+      "category": "coding",
+      "prompt_text": "Explain the following code in very simple terms, as if teaching a complete beginner. Avoid jargon and use analogies where helpful.\n\nCode:\n[Paste code]",
+      "tags": "coding, learning, beginner",
+      "use_case": "Understanding unfamiliar code quickly",
+      "example_output": "This code is like a checklist that looks at each item one by one and decides whether to keep it or skip it.",
+      "is_featured": true,
+      "created_at": "2026-01-21T16:10:00.000000+00:00"
+    },
+    {
+      "id": 7,
+      "title": "Meeting Summary Generator",
+      "category": "productivity",
+      "prompt_text": "Summarize the following meeting notes into clear action items, decisions made, and next steps. Keep the summary concise and structured.\n\nMeeting notes:\n[Paste notes]",
+      "tags": "productivity, meetings, summary",
+      "use_case": "Turning raw notes into actionable summaries",
+      "example_output": "Decision: Approve Q2 roadmap. Action: John to finalize timeline by Friday.",
+      "is_featured": true,
+      "created_at": "2026-01-21T16:15:00.000000+00:00"
+    },
+    {
+      "id": 8,
+      "title": "Startup Idea Validator",
+      "category": "business",
+      "prompt_text": "Act as a startup advisor. Evaluate the following startup idea for market potential, target users, risks, and possible improvements.\n\nIdea:\n[Describe startup idea]",
+      "tags": "startup, business, ideation",
+      "use_case": "Validating startup ideas quickly",
+      "example_output": "The idea solves a real problem for SMBs, but differentiation and pricing strategy need refinement.",
+      "is_featured": false,
+      "created_at": "2026-01-21T16:20:00.000000+00:00"
     }
   ]
 }
