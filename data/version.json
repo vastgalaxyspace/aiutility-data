@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-17T...",
+  "last_updated": "2026-01-21T14:59:23.104789+00:00",
   "force_update": false,
-  "whats_new": "🎉 Welcome to AI Utility App v1.0.0!...",
+  "whats_new": "🚀 Initial Release! Access tools, prompts, and learning resources.",
   "data_files": {
     "categories": "categories.json",
     "ai_tools": "ai_tools.json",

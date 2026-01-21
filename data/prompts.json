@@ -1,3 +1,37 @@
 {
-  "prompts": []
+  "prompts": [
+    {
+      "id": 2,
+      "title": "Python Bug Fixer",
+      "category": "coding",
+      "prompt_text": "Analyze this Python error and suggest a fix:\n\nError: [Paste Error]\nCode: [Paste Code]",
+      "tags": "python, debug, dev",
+      "use_case": "Fixing code errors quickly",
+      "example_output": "Identifies IndexError and suggests checking list bounds.",
+      "is_featured": true,
+      "created_at": "2026-01-21T14:59:23.083170+00:00"
+    },
+    {
+      "id": 1,
+      "title": "Resume Bullet Points",
+      "category": "resume",
+      "prompt_text": "Rewrite this job responsibility into a strong achievement-based bullet point using action verbs: [Paste Text]",
+      "tags": "career, resume, writing",
+      "use_case": "Improving CV impact",
+      "example_output": "Transformed 'Sales manager' to 'Spearheaded sales strategy resulting in 20% growth...'",
+      "is_featured": true,
+      "created_at": "2026-01-21T14:59:23.076837+00:00"
+    },
+    {
+      "id": 3,
+      "title": "Polite Email Decline",
+      "category": "email",
+      "prompt_text": "Write a polite email declining this invitation while keeping the door open for future opportunities: [Context]",
+      "tags": "email, business, soft-skills",
+      "use_case": "Declining meetings professionally",
+      "example_output": "Thank you for the invite...",
+      "is_featured": false,
+      "created_at": "2026-01-21T14:59:23.086964+00:00"
+    }
+  ]
 }

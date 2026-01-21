@@ -1,3 +1,44 @@
 {
-  "categories": []
+  "categories": [
+    {
+      "id": 1,
+      "name": "Writing Tools",
+      "description": "AI for text generation & copy",
+      "icon": "✍️",
+      "order": 1,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 2,
+      "name": "Image & Design",
+      "description": "Generative art & design tools",
+      "icon": "🎨",
+      "order": 2,
+      "created_at": "2026-01-21T14:59:23.041486+00:00"
+    },
+    {
+      "id": 3,
+      "name": "Code & Dev",
+      "description": "Programming assistants",
+      "icon": "💻",
+      "order": 3,
+      "created_at": "2026-01-21T14:59:23.044991+00:00"
+    },
+    {
+      "id": 4,
+      "name": "Data & Research",
+      "description": "Analysis and insights",
+      "icon": "📊",
+      "order": 4,
+      "created_at": "2026-01-21T14:59:23.048605+00:00"
+    },
+    {
+      "id": 5,
+      "name": "Video & Audio",
+      "description": "Media generation tools",
+      "icon": "🎬",
+      "order": 5,
+      "created_at": "2026-01-21T14:59:23.053468+00:00"
+    }
+  ]
 }
