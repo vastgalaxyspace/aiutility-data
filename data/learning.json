@@ -1,28 +1,64 @@
 {
   "learning_content": [
     {
+      "id": 1,
+      "title": "What is RAG (Retrieval-Augmented Generation)?",
+      "content": "Retrieval-Augmented Generation (RAG) is an AI architecture pattern that combines information retrieval with large language models (LLMs). Instead of relying only on what the model was trained on, RAG retrieves relevant documents from external data sources such as PDFs, databases, or knowledge bases at query time.\n\nHow RAG works:\n1. User submits a query.\n2. The query is converted into embeddings.\n3. A vector database retrieves the most relevant documents.\n4. Retrieved content is injected into the LLM prompt.\n5. The model generates a grounded, factual response.\n\nBenefits of RAG:\n• Reduces hallucinations\n• Enables up-to-date knowledge\n• Allows private and domain-specific data usage\n• Improves transparency and trust\n\nCommon use cases include chatbots, enterprise search, compliance assistants, and customer support systems.",
+      "category": "AI Architecture",
+      "difficulty_level": "intermediate",
+      "target_role": "developer",
+      "reading_time": 6,
+      "is_featured": true,
+      "created_at": "2026-01-21T14:59:23.091296+00:00",
+      "updated_at": "2026-01-21T14:59:23.091296+00:00"
+    },
+    {
       "id": 2,
       "title": "Prompt Engineering 101",
-      "content": "Learn the basics of talking to AI. 1. Be Clear. 2. Give Context. 3. Iterate...",
+      "content": "Prompt engineering is the skill of writing effective instructions for AI models to get accurate, relevant, and high-quality outputs.\n\nCore principles:\n1. Be Clear – Avoid vague instructions.\n2. Provide Context – Tell the AI who it is and what it should do.\n3. Specify Format – Ask for bullet points, JSON, tables, etc.\n4. Set Constraints – Limit length, tone, or scope.\n5. Iterate – Improve prompts based on outputs.\n\nExample:\nBad prompt: \"Explain AI\"\nGood prompt: \"Explain AI in simple terms for a beginner in under 100 words with examples.\"\n\nPrompt engineering is useful for writing, coding, research, automation, and AI application development.",
       "category": "Basics",
       "difficulty_level": "beginner",
       "target_role": "general",
-      "reading_time": 3,
+      "reading_time": 4,
       "is_featured": true,
       "created_at": "2026-01-21T14:59:23.095108+00:00",
       "updated_at": "2026-01-21T14:59:23.095108+00:00"
     },
     {
-      "id": 1,
-      "title": "What is RAG (Retrieval-Augmented Generation)?",
-      "content": "RAG is a technique that enhances the accuracy and reliability of generative AI models with facts fetched from external sources...",
-      "category": "AI Architecture",
+      "id": 3,
+      "title": "Vector Databases Explained",
+      "content": "Vector databases are specialized databases designed to store and search high-dimensional vector embeddings efficiently. They are a core component of modern AI systems, especially RAG pipelines.\n\nWhy vector databases are needed:\n• Traditional databases cannot perform semantic similarity search\n• AI models convert text, images, or audio into vectors\n• Similar meanings produce nearby vectors in embedding space\n\nKey operations:\n1. Insert embeddings\n2. Similarity search (cosine, dot-product, L2)\n3. Metadata filtering\n\nPopular vector databases include FAISS, Pinecone, Weaviate, Chroma, and Milvus.\n\nUse cases:\n• Semantic search\n• Document retrieval\n• Recommendation systems\n• Chatbots with memory",
+      "category": "AI Infrastructure",
       "difficulty_level": "intermediate",
       "target_role": "developer",
       "reading_time": 5,
+      "is_featured": false,
+      "created_at": "2026-01-21T15:30:00.000000+00:00",
+      "updated_at": "2026-01-21T15:30:00.000000+00:00"
+    },
+    {
+      "id": 4,
+      "title": "LLMs vs Traditional Machine Learning",
+      "content": "Large Language Models (LLMs) differ significantly from traditional machine learning models in architecture, training, and usage.\n\nTraditional ML:\n• Task-specific models\n• Requires labeled datasets\n• Limited generalization\n\nLLMs:\n• Trained on massive text corpora\n• Can perform multiple tasks with prompts\n• Exhibit reasoning and language understanding\n\nKey differences:\n• LLMs use transformers\n• LLMs support zero-shot and few-shot learning\n• LLMs can be adapted using fine-tuning or RAG\n\nUnderstanding these differences helps teams choose the right approach when building AI products.",
+      "category": "Foundations",
+      "difficulty_level": "beginner",
+      "target_role": "student",
+      "reading_time": 4,
+      "is_featured": false,
+      "created_at": "2026-01-21T15:35:00.000000+00:00",
+      "updated_at": "2026-01-21T15:35:00.000000+00:00"
+    },
+    {
+      "id": 5,
+      "title": "Building Your First AI Application",
+      "content": "Building an AI application involves more than calling an API. A typical production-ready AI system includes multiple layers.\n\nCore components:\n1. Frontend (UI or API)\n2. Backend orchestration\n3. AI model or LLM\n4. Data source (documents, DB, APIs)\n5. Monitoring and logging\n\nBest practices:\n• Validate inputs and outputs\n• Handle errors gracefully\n• Add rate limits and caching\n• Track latency and costs\n\nThis lesson prepares beginners to think like AI engineers, not just prompt users.",
+      "category": "Applied AI",
+      "difficulty_level": "beginner",
+      "target_role": "developer",
+      "reading_time": 6,
       "is_featured": true,
-      "created_at": "2026-01-21T14:59:23.091296+00:00",
-      "updated_at": "2026-01-21T14:59:23.091296+00:00"
+      "created_at": "2026-01-21T15:40:00.000000+00:00",
+      "updated_at": "2026-01-21T15:40:00.000000+00:00"
     }
   ]
 }
