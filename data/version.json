@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "last_updated": "2026-01-21T14:59:23.104789+00:00",
   "force_update": false,
   "whats_new": "🚀 Initial Release! Access tools, prompts, and learning resources.",
@@ -10,4 +10,5 @@
     "learning": "learning.json",
     "updates": "updates.json"
   }
+
 }
