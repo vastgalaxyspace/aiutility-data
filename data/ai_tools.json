@@ -1,3 +1,79 @@
 {
-  "ai_tools": []
+  "ai_tools": [
+    {
+      "id": 1,
+      "name": "ChatGPT",
+      "description": "Versatile AI for writing, coding, and problem-solving.",
+      "category_id": 1,
+      "category_name": "Writing Tools",
+      "use_case": "Drafting emails, summarizing text, explaining concepts.",
+      "target_audience": "general",
+      "website_url": "https://chat.openai.com",
+      "logo_url": "",
+      "is_featured": false,
+      "is_free": true,
+      "created_at": "2026-01-21T14:59:23.056883+00:00",
+      "updated_at": "2026-01-21T15:05:52.448286+00:00"
+    },
+    {
+      "id": 3,
+      "name": "GitHub Copilot",
+      "description": "AI pair programmer that suggests code as you type.",
+      "category_id": 3,
+      "category_name": "Code & Dev",
+      "use_case": "Speeding up development, writing boilerplate code.",
+      "target_audience": "developer",
+      "website_url": "https://github.com/features/copilot",
+      "logo_url": "",
+      "is_featured": false,
+      "is_free": false,
+      "created_at": "2026-01-21T14:59:23.067422+00:00",
+      "updated_at": "2026-01-21T15:04:19.189087+00:00"
+    },
+    {
+      "id": 2,
+      "name": "Midjourney",
+      "description": "High-quality artistic image generation from text prompts.",
+      "category_id": 2,
+      "category_name": "Image & Design",
+      "use_case": "Creating concept art, logos, and artistic visuals.",
+      "target_audience": "creative",
+      "website_url": "https://www.midjourney.com",
+      "logo_url": "",
+      "is_featured": false,
+      "is_free": false,
+      "created_at": "2026-01-21T14:59:23.062680+00:00",
+      "updated_at": "2026-01-21T15:04:19.190087+00:00"
+    },
+    {
+      "id": 4,
+      "name": "Perplexity",
+      "description": "AI search engine that provides cited answers.",
+      "category_id": 4,
+      "category_name": "Data & Research",
+      "use_case": "Researching topics with reliable sources.",
+      "target_audience": "student",
+      "website_url": "https://www.perplexity.ai",
+      "logo_url": "",
+      "is_featured": false,
+      "is_free": true,
+      "created_at": "2026-01-21T14:59:23.072953+00:00",
+      "updated_at": "2026-01-21T15:05:52.456843+00:00"
+    },
+    {
+      "id": 5,
+      "name": "suno",
+      "description": "This is use for to create the song",
+      "category_id": 5,
+      "category_name": "Video & Audio",
+      "use_case": "To create the songs",
+      "target_audience": "creative",
+      "website_url": "https://suno.com/",
+      "logo_url": "",
+      "is_featured": false,
+      "is_free": true,
+      "created_at": "2026-01-21T15:04:00.683840+00:00",
+      "updated_at": "2026-01-21T15:05:52.457928+00:00"
+    }
+  ]
 }
