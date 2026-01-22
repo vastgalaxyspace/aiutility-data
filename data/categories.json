@@ -39,6 +39,87 @@
       "icon": "🎬",
       "order": 5,
       "created_at": "2026-01-21T14:59:23.053468+00:00"
+    },
+    {
+      "id": 6,
+      "name": "AI Chat & Assistant",
+      "description": "Conversational AI models and virtual assistants",
+      "icon": "🤖",
+      "order": 1,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 7,
+      "name": "Image Generators",
+      "description": "Create and edit images using AI",
+      "icon": "🎨",
+      "order": 2,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 8,
+      "name": "Video Generators",
+      "description": "Text-to-video and video editing tools",
+      "icon": "🎬",
+      "order": 3,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 9,
+      "name": "Writing & Web SEO",
+      "description": "Content creation, copywriting, and SEO optimization",
+      "icon": "✍️",
+      "order": 4,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 10,
+      "name": "Text To Speech",
+      "description": "Voice cloning and audio synthesis",
+      "icon": "🗣️",
+      "order": 5,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 11,
+      "name": "Education / Studies",
+      "description": "Study aids, research, and learning assistants",
+      "icon": "🎓",
+      "order": 6,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 12,
+      "name": "E-commerce",
+      "description": "Tools for online stores and business growth",
+      "icon": "🛍️",
+      "order": 7,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 13,
+      "name": "AI Detection",
+      "description": "Detect AI-generated content and plagiarism",
+      "icon": "🕵️",
+      "order": 8,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 14,
+      "name": "Human Resources",
+      "description": "Resume building, recruitment, and HR tools",
+      "icon": "👔",
+      "order": 9,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
+    },
+    {
+      "id": 15,
+      "name": "E-mail",
+      "description": "Email marketing and automation tools",
+      "icon": "📧",
+      "order": 10,
+      "created_at": "2026-01-21T14:59:23.037052+00:00"
     }
   ]
+
 }
