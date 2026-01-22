@@ -1,4 +1,5 @@
-{
+
+  {
   "ai_tools": [
     {
       "id": 1,
@@ -163,23 +164,4 @@
       "is_featured": true,
       "is_free": true,
       "created_at": "2026-01-21T15:20:00.000000+00:00",
-      "updated_at": "2026-01-21T15:20:00.000000+00:00"
-    },
-    {
-      "id": 12,
-      "name": "Hugging Face",
-      "description": "Platform for open-source AI models, datasets, and demos.",
-      "category_id": 4,
-      "category_name": "Data & Research",
-      "use_case": "Model hosting, ML research, inference APIs.",
-      "target_audience": "developer",
-      "website_url": "https://huggingface.co",
-      "logo_url": "",
-      "is_featured": true,
-      "is_free": true,
-      "created_at": "2026-01-21T15:22:00.000000+00:00",
-      "updated_at": "2026-01-21T15:22:00.000000+00:00"
-    }
-  ]
-
-}
+      "updated_at": "2026-01-21T15:20:00.000000+00:00"  
